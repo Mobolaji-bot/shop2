@@ -1,0 +1,118 @@
+body{
+    background-color: beige;
+    font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+.right img {
+    width:450px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:35rem;
+    top:7rem;
+    border-radius: 0 10px 10px 0;
+}
+
+.left  {
+    position: relative;
+  left:10.09rem;
+    bottom:13rem;
+    background-color: #015483;
+    width:24.9rem;
+    height:19rem;
+    border-radius: 10px 0 0 10px;
+}
+.left h2 {
+    position:relative;
+    left:80px;
+    top:40px
+}
+.left p {
+    position:relative;
+    left:70px;
+    top:40px;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.text{
+   color:#75d0ed;
+}
+.talk {
+     position:relative;
+    left:13rem;
+    bottom:18rem;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.let {
+    font-weight: bold;
+}
+.let2 {
+    font-weight: bold;
+}
+.talk2 {
+    position:relative;
+     left:20rem;
+    bottom:21.9rem;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.let3 {
+       font-weight: bold;
+}
+.talk3{
+     position:relative;
+     left:28rem;
+    bottom:25.6rem;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+@media (max-width: 767px) {
+  /* Styles for mobile devices */
+  .left {
+    position:relative;
+    top:20rem;
+  }
+  .right img {
+    position: relative;
+    left:0;
+    width:360px;
+    height:250px;
+    top:0;
+    border-radius: 10px 10px 0 0;
+  }
+  .left{
+    position:relative;
+    left:0;
+    width:360px;
+    height:500px;
+    top:-1.5rem;
+    border-radius: 0 0 10px 10px;
+  }
+  .left p {
+    position:relative;
+    width:fit-content;
+    left:12px;
+ }
+ .talk{
+    position:relative;
+    display:flex;
+    width: fit-content;
+    margin-top:-2rem;
+    margin-left:-4rem;
+    font-weight:bold;  
+ }
+ .talk2{
+    position:relative;
+    margin-top:8rem;
+     margin-left:-10.8rem;
+ }
+ .talk3{
+      position:relative;
+    margin-top:8rem;
+     margin-left:-18.8rem;
+ }
+}
